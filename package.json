@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "engineering of backend systems",
+  "keywords": [
+    "node"
+  ],
+  "homepage": "https://github.com/harshbarnawa/Backend-notes#readme",
+  "bugs": {
+    "url": "https://github.com/harshbarnawa/Backend-notes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshbarnawa/Backend-notes.git"
+  },
+  "license": "ISC",
+  "author": "harsh barnawa",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0"
+  }
+}
