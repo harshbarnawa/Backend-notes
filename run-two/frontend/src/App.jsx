@@ -27,7 +27,7 @@ function App() {
       data.map((data, index) => (
         <div key={(data.id)}>
           <h3>{data.name}</h3> 
-          <p>{data.active}</p>
+          <p>{data.content}</p>
         </div>
       ))
     }

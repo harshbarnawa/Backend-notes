@@ -4,9 +4,9 @@ const app = express();
 
 app.get('/api/data', (req, res) => {
     const data = [
-  { "id": 1, "name": "Apple", "active": true },
-  { "id": 2, "name": "Banana", "active": false },
-  { "id": 3, "name": "Cherry", "active": true }
+  { "id": 1, "name": "Apple", "content": "Keeps doctor away" },
+  { "id": 2, "name": "Banana", "content": "Gain for hustle" },
+  { "id": 3, "name": "Cherry", "content": "Blossoms" }
 ]
 
     res.send(data);
