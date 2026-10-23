@@ -2,7 +2,7 @@ import express from 'express';
 
 const app = express();
 
-app.get('/data', (req, res) => {
+app.get('/api/data', (req, res) => {
     const data = [
   { "id": 1, "name": "Apple", "active": true },
   { "id": 2, "name": "Banana", "active": false },
